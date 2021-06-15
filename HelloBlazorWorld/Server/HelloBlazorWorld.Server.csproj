@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>5fd7cd6e-4196-495f-9284-e5493c71bcfd</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="3.2.1" />
+    <PackageReference Include="Twilio" Version="5.45.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Client\HelloBlazorWorld.Client.csproj" />
+    <ProjectReference Include="..\Shared\HelloBlazorWorld.Shared.csproj" />
+  </ItemGroup>
+
+
+</Project>
